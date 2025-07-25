@@ -2,7 +2,24 @@ build
 rfantibody.egg-info
 __pycache__
 weights
-include/dgl/*.whl
+include/dgl/*.whl*
 T_50_omega_1000_min_sigma_0_02_min_b_1_5_max_b_2_5_schedule_linear.pkl
 cached_schedules
 example_outputs
+
+# ignore all USalign binaries
+include/USalign/addChainID
+include/USalign/cif2pdb
+include/USalign/HwRMSD
+include/USalign/MMalign
+include/USalign/NWalign
+include/USalign/pdb2fasta
+include/USalign/pdb2ss
+include/USalign/pdb2xyz
+include/USalign/pdbAtomName
+include/USalign/qTMclust
+include/USalign/se
+include/USalign/TMalign
+include/USalign/TMscore
+include/USalign/USalign
+include/USalign/xyz_sfetch
